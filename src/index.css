@@ -1,0 +1,89 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(14, 8, 8, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.list {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  
+}
+.title {
+  color: #1c1313;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input[type ="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgba(159, 157, 157, 0.208);
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgb(239, 238, 238);
+  color: black;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #3dc748;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+ol {
+  padding: 0px;
+}
+li{
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 15px;
+  padding-left: 20px;
+
+}
+#txtt {
+  flex: 1;
+  
+}
+.completed {
+  text-decoration :line-through;
+  margin-bottom: 8px;
+  font-size : 20px;
+  color : #555;
+}
+.delete-btn,
+.com {
+  background-color: #dd6254;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 100px;
+  height: 30px;
+}
+.com {
+  background-color: rgb(88, 88, 145);
+  margin-left: 5px;
+  
+}
+
